@@ -1,0 +1,318 @@
+.azeret-mono{
+font-family: "Azeret Mono", monospace;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+}
+/* Nav-bar start */
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn{
+box-sizing: border-box;
+border-radius: 8px;
+opacity: 0.8;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
+
+/* Nav-bar end */
+/* Hero Section start */
+.Hero-section{
+    margin: 35px auto;
+    background-image: url(./assets/Hero-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.Hero-section h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+letter-spacing: 0%;
+text-align: center;
+}
+.Hero-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.Hero-section button a{
+border-radius: 8px;
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 20px;
+text-decoration: none;
+}
+.Hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .btn-primary{
+        border-radius: 8px;
+background: rgb(13, 19, 33);
+        color: white;
+        padding: 18px 35px;
+        border: none;
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 15px;
+}
+/* Hero Section end */
+
+/* Web-development start */
+.Web-development{
+    width: 1140px;
+height: 1000px;
+margin: 0 auto;
+}
+.Web-development h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.Web-development p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.Web-development-content h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn2{
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 10px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+}
+.button{
+    text-align: left;
+}
+.I-will-Do-Coding-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Web-development  end*/
+/* my-inspiration start */
+.my-inspiration{
+    width: 1140px;
+height: 650px;
+margin: 20px auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.my-inspiration h5{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.my-inspiration p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.styling-frame{
+box-sizing: border-box;
+border: 1px solid rgba(33, 28, 13, 0.2);
+border-radius: 16px;
+width: 80%;
+height: 80%;
+margin-bottom: 15px;
+padding: 25px;}
+/* my-inspiration end*/
+/* skill start */
+.section-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.sub-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1400px;
+height: 350px;
+margin: 0 auto;
+gap: 25px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.skills{
+    border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.skill1{
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+width: auto;
+}
+.learn-btn{
+    border: none;
+}
+/* skill end */
+/* I need Support Section start */
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:   linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(./assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+width: 1140px;
+height: 313px;
+margin: 0 auto;
+margin-top: 35px;
+}
+.support h3{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 25px;
+font-weight: 900;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.support p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.input-field  .messege-box {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+background: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+width: 313px;
+padding: 12px;
+}
+.input-field .submit-box{
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 11px;
+}
+
+/* I need Support Section end */
+/* footer start */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 30px;
+}
+.footer p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* footer end */
