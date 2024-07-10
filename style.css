@@ -19,20 +19,6 @@ line-height: 33px;
 letter-spacing: 0%;
 text-align: left;
 }
-.btn{
-box-sizing: border-box;
-border-radius: 8px;
-opacity: 0.8;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-border: none;
-}
-
 /* Nav-bar end */
 /* Hero Section start */
 .Hero-section{
@@ -129,20 +115,19 @@ text-align: center;
     letter-spacing: 0%;
     text-align: left;
 }
-.btn2{
-box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
+.btn-box{box-sizing: border-box;
+border-radius: 8px;
+opacity: 0.8;
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 10px;
+font-size: 20px;
 font-weight: 600;
-line-height: 20px;
+line-height: 23px;
 letter-spacing: 0%;
-}
-.button{
-    text-align: left;
-}
+text-align: left;
+border: none;}
+    
+
 .I-will-Do-Coding-text{
     display: flex;
     flex-direction: row;
